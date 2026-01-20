@@ -148,12 +148,63 @@ foreach($colors as $color){
 
 <!-- print 1 to 1000 odd number only using foor loop -->
 
-<?php
+<!-- <?php
 
 for($i=1; $i<=1000; $i++){
     if($i%2 != 0){
         echo $i . "<br>";
     }
 }
+
+?> -->
+
+
+<!-- Indexed Array (Number key) -->
+
+
+<!-- <?php
+$colors = ["Red", "Green", "Blue"];
+echo $colors[0];
+?> -->
+
+
+<!-- Associative Array (Key → Value) -->
+
+<!-- <?php
+
+$user = [
+   "name" => "Taposh",
+   "age" => 25,
+   "city" => "Dhaka"
+];
+
+echo $user["name"];
+
+?> -->
+
+
+<!-- Multidimensional Array -->
+
+
+<!-- <?php
+
+$students = [
+   ["name"=>"Rahim", "marks"=>80],
+   ["name"=>"Karim", "marks"=>90]
+];
+echo $students[1]["name"]; // Karim
+
+?> -->
+
+
+<?php
+
+
+$colors = ["Red", "Green", "Blue"];
+
+foreach($colors as $color){
+   echo "<li>" . $color . "</li>";
+}
+
 
 ?>
